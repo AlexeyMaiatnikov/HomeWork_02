@@ -17,7 +17,7 @@ if (number >= 100 & number <= 999)
 {
     Write($"{number % 10}");
 };
-while (number > 1000)
+while (number >= 1000)
 {
     number = number / 10;
     if (number < 1000)
